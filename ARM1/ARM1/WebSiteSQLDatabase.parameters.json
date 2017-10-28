@@ -1,0 +1,24 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "hostingPlanName": {
+      "value": "WebHostingPlan1"
+    },
+    "administratorLogin": {
+      "value": "sivareddy"
+    },
+    "databaseName": {
+      "value": "sqldb1"
+    },
+    "administratorLoginPassword": {
+      "value": "Demo@admin123"
+    },
+    "WebAppARM1PackageFolder": {
+      "value": "WebApp1"
+    },
+    "WebAppARM1PackageFileName": {
+      "value": "package.zip"
+    }
+  }
+}
